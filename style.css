@@ -64,5 +64,42 @@ ul li{
     border-radius: 7%;
     background-image: linear-gradient(orange tomato);
 }
-
-
+.icon-part{
+    display: flex;
+    margin: 20px 70px;
+}
+.food{
+    background-color: rgba(128, 128, 128, 0.185);
+}   
+.medicine{
+    background-color: rgba(255, 99, 71, 0.233)  
+}
+.shelter{
+    background-color:rgba(153, 205, 50, 0.178)   
+}
+.icon{
+    margin: 10px;
+    padding: 60px 25px;
+    border-radius: 2%;
+    text-align: left;
+}
+.fourth-part{
+    display: flex;
+}
+.half-space{
+    width: 40%;
+    padding-left: 5%;
+    margin: 20px 40px;
+    padding-right: 5%;
+}
+.half-space img{
+    width: 110%;
+    border: 10px solid white;
+    border-radius: 4%;
+    margin-right: 600px;
+    height: 110vh;
+    
+}
+.grey-color{
+    color: gray;
+}
