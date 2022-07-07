@@ -1,5 +1,5 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Trispace', sans-serif;
     margin: 0;
 }
 h1{
@@ -10,6 +10,7 @@ h1{
     color: white;
     text-align: center;
     word-break: 1.2px;
+    font-size: 20px;
 }
 .first-portion{
     background-image: url(images/donation13.jpg);
@@ -17,7 +18,7 @@ h1{
     background-position: center;
     text-align: center;
     width: auto;
-    height: 90vh;
+    height: 65vh;
     padding: 90px;
 }
 .donate-button{
@@ -93,14 +94,55 @@ ul li{
     padding-right: 5%;
 }
 .half-space img{
-    width: 110%;
+    width: 40vw;
     border: 10px solid white;
     border-radius: 4%;
     margin-right: 600px;
-    height: 110vh;
-    size: 0.8em;
+    height: 80vh;
+    
     
 }
 .grey-color{
     color: gray;
+}
+.forum{
+    text-align: center;
+    background-color: rgba(172, 255, 47, 0.295);
+    margin:10px 400px 90px;
+   
+    
+}
+.email-forum{
+  display: flex;
+  justify-content: center;
+  padding: 70px 75px;
+ 
+   
+}
+.email-align{
+    background-color: rgba(128, 128, 128, 0.281);
+    border: none;
+    border-radius:8%;
+    font-size: 20px;
+    
+   
+}
+.subscribe-align{
+   background-color: tomato;
+   border: none;
+   border-radius:8%;
+   font-size: 20px;
+}
+.footer-setting{
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 15px;
+    
+    
+}
+#tomato-color{
+    color: tomato;
+    font-family: 'Pacifico', cursive;
+    font-size: 27px;
 }
